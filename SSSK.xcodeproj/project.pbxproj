@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2677623119491777000830A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2677623019491777000830A6 /* Foundation.framework */; };
+		2677623319491777000830A6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2677623219491777000830A6 /* CoreGraphics.framework */; };
+		2677623519491777000830A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2677623419491777000830A6 /* UIKit.framework */; };
+		2677623719491777000830A6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2677623619491777000830A6 /* CoreData.framework */; };
+		2677623D19491777000830A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2677623B19491777000830A6 /* InfoPlist.strings */; };
+		2677623F19491777000830A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2677623E19491777000830A6 /* main.m */; };
+		2677624319491777000830A6 /* NLTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2677624219491777000830A6 /* NLTAppDelegate.m */; };
+		2677624619491777000830A6 /* SSSK.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2677624419491777000830A6 /* SSSK.xcdatamodeld */; };
+		2677624819491777000830A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2677624719491777000830A6 /* Images.xcassets */; };
+		2677624F19491777000830A6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2677624E19491777000830A6 /* XCTest.framework */; };
+		2677625019491777000830A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2677623019491777000830A6 /* Foundation.framework */; };
+		2677625119491777000830A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2677623419491777000830A6 /* UIKit.framework */; };
+		2677625219491777000830A6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2677623619491777000830A6 /* CoreData.framework */; };
+		2677625A19491777000830A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2677625819491777000830A6 /* InfoPlist.strings */; };
+		2677625C19491777000830A6 /* SSSKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2677625B19491777000830A6 /* SSSKTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2677625319491777000830A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2677622519491777000830A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2677622C19491777000830A6;
+			remoteInfo = SSSK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2677622D19491777000830A6 /* SSSK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSSK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2677623019491777000830A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2677623219491777000830A6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2677623419491777000830A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2677623619491777000830A6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2677623A19491777000830A6 /* SSSK-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSSK-Info.plist"; sourceTree = "<group>"; };
+		2677623C19491777000830A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2677623E19491777000830A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2677624019491777000830A6 /* SSSK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSSK-Prefix.pch"; sourceTree = "<group>"; };
+		2677624119491777000830A6 /* NLTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLTAppDelegate.h; sourceTree = "<group>"; };
+		2677624219491777000830A6 /* NLTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLTAppDelegate.m; sourceTree = "<group>"; };
+		2677624519491777000830A6 /* SSSK.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SSSK.xcdatamodel; sourceTree = "<group>"; };
+		2677624719491777000830A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2677624D19491777000830A6 /* SSSKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSSKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2677624E19491777000830A6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2677625719491777000830A6 /* SSSKTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSSKTests-Info.plist"; sourceTree = "<group>"; };
+		2677625919491777000830A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2677625B19491777000830A6 /* SSSKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSSKTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2677622A19491777000830A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2677623319491777000830A6 /* CoreGraphics.framework in Frameworks */,
+				2677623719491777000830A6 /* CoreData.framework in Frameworks */,
+				2677623519491777000830A6 /* UIKit.framework in Frameworks */,
+				2677623119491777000830A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2677624A19491777000830A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2677624F19491777000830A6 /* XCTest.framework in Frameworks */,
+				2677625219491777000830A6 /* CoreData.framework in Frameworks */,
+				2677625119491777000830A6 /* UIKit.framework in Frameworks */,
+				2677625019491777000830A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2677622419491777000830A6 = {
+			isa = PBXGroup;
+			children = (
+				2677623819491777000830A6 /* SSSK */,
+				2677625519491777000830A6 /* SSSKTests */,
+				2677622F19491777000830A6 /* Frameworks */,
+				2677622E19491777000830A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2677622E19491777000830A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2677622D19491777000830A6 /* SSSK.app */,
+				2677624D19491777000830A6 /* SSSKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2677622F19491777000830A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2677623019491777000830A6 /* Foundation.framework */,
+				2677623219491777000830A6 /* CoreGraphics.framework */,
+				2677623419491777000830A6 /* UIKit.framework */,
+				2677623619491777000830A6 /* CoreData.framework */,
+				2677624E19491777000830A6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2677623819491777000830A6 /* SSSK */ = {
+			isa = PBXGroup;
+			children = (
+				2677624119491777000830A6 /* NLTAppDelegate.h */,
+				2677624219491777000830A6 /* NLTAppDelegate.m */,
+				2677624719491777000830A6 /* Images.xcassets */,
+				2677624419491777000830A6 /* SSSK.xcdatamodeld */,
+				2677623919491777000830A6 /* Supporting Files */,
+			);
+			path = SSSK;
+			sourceTree = "<group>";
+		};
+		2677623919491777000830A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2677623A19491777000830A6 /* SSSK-Info.plist */,
+				2677623B19491777000830A6 /* InfoPlist.strings */,
+				2677623E19491777000830A6 /* main.m */,
+				2677624019491777000830A6 /* SSSK-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2677625519491777000830A6 /* SSSKTests */ = {
+			isa = PBXGroup;
+			children = (
+				2677625B19491777000830A6 /* SSSKTests.m */,
+				2677625619491777000830A6 /* Supporting Files */,
+			);
+			path = SSSKTests;
+			sourceTree = "<group>";
+		};
+		2677625619491777000830A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2677625719491777000830A6 /* SSSKTests-Info.plist */,
+				2677625819491777000830A6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2677622C19491777000830A6 /* SSSK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2677625F19491777000830A6 /* Build configuration list for PBXNativeTarget "SSSK" */;
+			buildPhases = (
+				2677622919491777000830A6 /* Sources */,
+				2677622A19491777000830A6 /* Frameworks */,
+				2677622B19491777000830A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSSK;
+			productName = SSSK;
+			productReference = 2677622D19491777000830A6 /* SSSK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2677624C19491777000830A6 /* SSSKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2677626219491777000830A6 /* Build configuration list for PBXNativeTarget "SSSKTests" */;
+			buildPhases = (
+				2677624919491777000830A6 /* Sources */,
+				2677624A19491777000830A6 /* Frameworks */,
+				2677624B19491777000830A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2677625419491777000830A6 /* PBXTargetDependency */,
+			);
+			name = SSSKTests;
+			productName = SSSKTests;
+			productReference = 2677624D19491777000830A6 /* SSSKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2677622519491777000830A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NLT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Nathan Thomas";
+				TargetAttributes = {
+					2677624C19491777000830A6 = {
+						TestTargetID = 2677622C19491777000830A6;
+					};
+				};
+			};
+			buildConfigurationList = 2677622819491777000830A6 /* Build configuration list for PBXProject "SSSK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2677622419491777000830A6;
+			productRefGroup = 2677622E19491777000830A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2677622C19491777000830A6 /* SSSK */,
+				2677624C19491777000830A6 /* SSSKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2677622B19491777000830A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2677623D19491777000830A6 /* InfoPlist.strings in Resources */,
+				2677624819491777000830A6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2677624B19491777000830A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2677625A19491777000830A6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2677622919491777000830A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2677623F19491777000830A6 /* main.m in Sources */,
+				2677624319491777000830A6 /* NLTAppDelegate.m in Sources */,
+				2677624619491777000830A6 /* SSSK.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2677624919491777000830A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2677625C19491777000830A6 /* SSSKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2677625419491777000830A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2677622C19491777000830A6 /* SSSK */;
+			targetProxy = 2677625319491777000830A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2677623B19491777000830A6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2677623C19491777000830A6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2677625819491777000830A6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2677625919491777000830A6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2677625D19491777000830A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		2677625E19491777000830A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2677626019491777000830A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSSK/SSSK-Prefix.pch";
+				INFOPLIST_FILE = "SSSK/SSSK-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2677626119491777000830A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSSK/SSSK-Prefix.pch";
+				INFOPLIST_FILE = "SSSK/SSSK-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2677626319491777000830A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SSSK.app/SSSK";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSSK/SSSK-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SSSKTests/SSSKTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2677626419491777000830A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SSSK.app/SSSK";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSSK/SSSK-Prefix.pch";
+				INFOPLIST_FILE = "SSSKTests/SSSKTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2677622819491777000830A6 /* Build configuration list for PBXProject "SSSK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2677625D19491777000830A6 /* Debug */,
+				2677625E19491777000830A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2677625F19491777000830A6 /* Build configuration list for PBXNativeTarget "SSSK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2677626019491777000830A6 /* Debug */,
+				2677626119491777000830A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2677626219491777000830A6 /* Build configuration list for PBXNativeTarget "SSSKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2677626319491777000830A6 /* Debug */,
+				2677626419491777000830A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2677624419491777000830A6 /* SSSK.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2677624519491777000830A6 /* SSSK.xcdatamodel */,
+			);
+			currentVersion = 2677624519491777000830A6 /* SSSK.xcdatamodel */;
+			path = SSSK.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2677622519491777000830A6 /* Project object */;
+}
