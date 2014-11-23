@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2608CBE31973226D0039F87F /* NLTAddToDoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2608CBE11973226D0039F87F /* NLTAddToDoViewController.m */; };
+		2608CBE41973226D0039F87F /* NLTAddToDoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2608CBE21973226D0039F87F /* NLTAddToDoViewController.xib */; };
+		2613E92F194929D800CE72CF /* NLTIE370ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2613E92D194929D800CE72CF /* NLTIE370ViewController.m */; };
+		2613E930194929D800CE72CF /* NLTIE370ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2613E92E194929D800CE72CF /* NLTIE370ViewController.xib */; };
+		262DFFE719721170002977EF /* Top_Charts@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 262DFFE619721170002977EF /* Top_Charts@2x.png */; };
+		262DFFE919721184002977EF /* Top_Charts.png in Resources */ = {isa = PBXBuildFile; fileRef = 262DFFE819721184002977EF /* Top_Charts.png */; };
+		2659630719659B530050F5FA /* calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = 2659630619659B530050F5FA /* calculator.png */; };
+		265963131965A4B10050F5FA /* NLTToDoStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 265963121965A4B10050F5FA /* NLTToDoStore.m */; };
+		265963171965A5600050F5FA /* NLTToDoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 265963151965A5600050F5FA /* NLTToDoTableViewController.m */; };
+		2659631B1965A5C70050F5FA /* NLTToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659631A1965A5C70050F5FA /* NLTToDoItem.m */; };
 		2677623119491777000830A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2677623019491777000830A6 /* Foundation.framework */; };
 		2677623319491777000830A6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2677623219491777000830A6 /* CoreGraphics.framework */; };
 		2677623519491777000830A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2677623419491777000830A6 /* UIKit.framework */; };
@@ -22,6 +32,11 @@
 		2677625219491777000830A6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2677623619491777000830A6 /* CoreData.framework */; };
 		2677625A19491777000830A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2677625819491777000830A6 /* InfoPlist.strings */; };
 		2677625C19491777000830A6 /* SSSKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2677625B19491777000830A6 /* SSSKTests.m */; };
+		26E33BA31975704100F084D9 /* NLTBinHexConvViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E33BA11975704100F084D9 /* NLTBinHexConvViewController.m */; };
+		26E33BA41975704100F084D9 /* NLTBinHexConvViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26E33BA21975704100F084D9 /* NLTBinHexConvViewController.xib */; };
+		26E33BA71975BD4500F084D9 /* informatics.png in Resources */ = {isa = PBXBuildFile; fileRef = 26E33BA61975BD4500F084D9 /* informatics.png */; };
+		26E33BA91975BD8E00F084D9 /* informatics-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 26E33BA81975BD8E00F084D9 /* informatics-25.png */; };
+		26E33BAB1975BD9C00F084D9 /* informatics-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 26E33BAA1975BD9C00F084D9 /* informatics-32.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +50,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2608CBE01973226D0039F87F /* NLTAddToDoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLTAddToDoViewController.h; sourceTree = "<group>"; };
+		2608CBE11973226D0039F87F /* NLTAddToDoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLTAddToDoViewController.m; sourceTree = "<group>"; };
+		2608CBE21973226D0039F87F /* NLTAddToDoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NLTAddToDoViewController.xib; sourceTree = "<group>"; };
+		2613E92C194929D800CE72CF /* NLTIE370ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLTIE370ViewController.h; sourceTree = "<group>"; };
+		2613E92D194929D800CE72CF /* NLTIE370ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLTIE370ViewController.m; sourceTree = "<group>"; };
+		2613E92E194929D800CE72CF /* NLTIE370ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NLTIE370ViewController.xib; sourceTree = "<group>"; };
+		262DFFE619721170002977EF /* Top_Charts@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Top_Charts@2x.png"; path = "../../../../../Downloads/pixellove_free/2x_normal/Top_Charts@2x.png"; sourceTree = "<group>"; };
+		262DFFE819721184002977EF /* Top_Charts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Top_Charts.png; path = ../../../../../Downloads/pixellove_free/1x_normal/Top_Charts.png; sourceTree = "<group>"; };
+		2659630619659B530050F5FA /* calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calculator.png; path = "../../../../../Downloads/iconbeast-lite/iconbeast lite - png/calculator.png"; sourceTree = "<group>"; };
+		265963111965A4B10050F5FA /* NLTToDoStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLTToDoStore.h; sourceTree = "<group>"; };
+		265963121965A4B10050F5FA /* NLTToDoStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLTToDoStore.m; sourceTree = "<group>"; };
+		265963141965A5600050F5FA /* NLTToDoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLTToDoTableViewController.h; sourceTree = "<group>"; };
+		265963151965A5600050F5FA /* NLTToDoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLTToDoTableViewController.m; sourceTree = "<group>"; };
+		265963191965A5C70050F5FA /* NLTToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLTToDoItem.h; sourceTree = "<group>"; };
+		2659631A1965A5C70050F5FA /* NLTToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLTToDoItem.m; sourceTree = "<group>"; };
 		2677622D19491777000830A6 /* SSSK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSSK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2677623019491777000830A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2677623219491777000830A6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +83,12 @@
 		2677625719491777000830A6 /* SSSKTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSSKTests-Info.plist"; sourceTree = "<group>"; };
 		2677625919491777000830A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2677625B19491777000830A6 /* SSSKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSSKTests.m; sourceTree = "<group>"; };
+		26E33BA01975704100F084D9 /* NLTBinHexConvViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLTBinHexConvViewController.h; sourceTree = "<group>"; };
+		26E33BA11975704100F084D9 /* NLTBinHexConvViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLTBinHexConvViewController.m; sourceTree = "<group>"; };
+		26E33BA21975704100F084D9 /* NLTBinHexConvViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NLTBinHexConvViewController.xib; sourceTree = "<group>"; };
+		26E33BA61975BD4500F084D9 /* informatics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = informatics.png; path = "../../../../../Downloads/icons8_lightbox-1/PNG/512/informatics.png"; sourceTree = "<group>"; };
+		26E33BA81975BD8E00F084D9 /* informatics-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "informatics-25.png"; path = "../../../../../Downloads/icons8_lightbox-1/PNG/25/informatics-25.png"; sourceTree = "<group>"; };
+		26E33BAA1975BD9C00F084D9 /* informatics-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "informatics-32.png"; path = "../../../../../Downloads/icons8_lightbox-1/PNG/32/informatics-32.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +117,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2659630519659B430050F5FA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				26E33BAA1975BD9C00F084D9 /* informatics-32.png */,
+				26E33BA81975BD8E00F084D9 /* informatics-25.png */,
+				26E33BA61975BD4500F084D9 /* informatics.png */,
+				262DFFE819721184002977EF /* Top_Charts.png */,
+				262DFFE619721170002977EF /* Top_Charts@2x.png */,
+				2659630619659B530050F5FA /* calculator.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		2659630A1965A2670050F5FA /* Factor Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				2613E92C194929D800CE72CF /* NLTIE370ViewController.h */,
+				2613E92D194929D800CE72CF /* NLTIE370ViewController.m */,
+				2613E92E194929D800CE72CF /* NLTIE370ViewController.xib */,
+			);
+			name = "Factor Calculator";
+			sourceTree = "<group>";
+		};
+		265963101965A3A60050F5FA /* ToDo */ = {
+			isa = PBXGroup;
+			children = (
+				265963111965A4B10050F5FA /* NLTToDoStore.h */,
+				265963121965A4B10050F5FA /* NLTToDoStore.m */,
+				265963141965A5600050F5FA /* NLTToDoTableViewController.h */,
+				265963151965A5600050F5FA /* NLTToDoTableViewController.m */,
+				2608CBE01973226D0039F87F /* NLTAddToDoViewController.h */,
+				2608CBE11973226D0039F87F /* NLTAddToDoViewController.m */,
+				2608CBE21973226D0039F87F /* NLTAddToDoViewController.xib */,
+				265963191965A5C70050F5FA /* NLTToDoItem.h */,
+				2659631A1965A5C70050F5FA /* NLTToDoItem.m */,
+			);
+			name = ToDo;
+			sourceTree = "<group>";
+		};
 		2677622419491777000830A6 = {
 			isa = PBXGroup;
 			children = (
@@ -115,8 +190,13 @@
 		2677623819491777000830A6 /* SSSK */ = {
 			isa = PBXGroup;
 			children = (
+				2677623E19491777000830A6 /* main.m */,
 				2677624119491777000830A6 /* NLTAppDelegate.h */,
 				2677624219491777000830A6 /* NLTAppDelegate.m */,
+				2659630A1965A2670050F5FA /* Factor Calculator */,
+				265963101965A3A60050F5FA /* ToDo */,
+				26E33BA51975704E00F084D9 /* Converter */,
+				2659630519659B430050F5FA /* Images */,
 				2677624719491777000830A6 /* Images.xcassets */,
 				2677624419491777000830A6 /* SSSK.xcdatamodeld */,
 				2677623919491777000830A6 /* Supporting Files */,
@@ -129,7 +209,6 @@
 			children = (
 				2677623A19491777000830A6 /* SSSK-Info.plist */,
 				2677623B19491777000830A6 /* InfoPlist.strings */,
-				2677623E19491777000830A6 /* main.m */,
 				2677624019491777000830A6 /* SSSK-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -151,6 +230,16 @@
 				2677625819491777000830A6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26E33BA51975704E00F084D9 /* Converter */ = {
+			isa = PBXGroup;
+			children = (
+				26E33BA01975704100F084D9 /* NLTBinHexConvViewController.h */,
+				26E33BA11975704100F084D9 /* NLTBinHexConvViewController.m */,
+				26E33BA21975704100F084D9 /* NLTBinHexConvViewController.xib */,
+			);
+			name = Converter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +290,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Nathan Thomas";
 				TargetAttributes = {
+					2677622C19491777000830A6 = {
+						DevelopmentTeam = 3C2MLEHGBW;
+					};
 					2677624C19491777000830A6 = {
 						TestTargetID = 2677622C19491777000830A6;
 					};
@@ -229,8 +321,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26E33BA91975BD8E00F084D9 /* informatics-25.png in Resources */,
+				26E33BA41975704100F084D9 /* NLTBinHexConvViewController.xib in Resources */,
+				26E33BA71975BD4500F084D9 /* informatics.png in Resources */,
+				262DFFE719721170002977EF /* Top_Charts@2x.png in Resources */,
+				2608CBE41973226D0039F87F /* NLTAddToDoViewController.xib in Resources */,
+				262DFFE919721184002977EF /* Top_Charts.png in Resources */,
 				2677623D19491777000830A6 /* InfoPlist.strings in Resources */,
 				2677624819491777000830A6 /* Images.xcassets in Resources */,
+				2613E930194929D800CE72CF /* NLTIE370ViewController.xib in Resources */,
+				2659630719659B530050F5FA /* calculator.png in Resources */,
+				26E33BAB1975BD9C00F084D9 /* informatics-32.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +350,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				265963171965A5600050F5FA /* NLTToDoTableViewController.m in Sources */,
+				2608CBE31973226D0039F87F /* NLTAddToDoViewController.m in Sources */,
+				2613E92F194929D800CE72CF /* NLTIE370ViewController.m in Sources */,
+				2659631B1965A5C70050F5FA /* NLTToDoItem.m in Sources */,
 				2677623F19491777000830A6 /* main.m in Sources */,
 				2677624319491777000830A6 /* NLTAppDelegate.m in Sources */,
+				26E33BA31975704100F084D9 /* NLTBinHexConvViewController.m in Sources */,
+				265963131965A4B10050F5FA /* NLTToDoStore.m in Sources */,
 				2677624619491777000830A6 /* SSSK.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,10 +477,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SSSK/SSSK-Prefix.pch";
 				INFOPLIST_FILE = "SSSK/SSSK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -383,10 +495,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SSSK/SSSK-Prefix.pch";
 				INFOPLIST_FILE = "SSSK/SSSK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -450,6 +567,7 @@
 				2677626119491777000830A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2677626219491777000830A6 /* Build configuration list for PBXNativeTarget "SSSKTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +576,7 @@
 				2677626419491777000830A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
