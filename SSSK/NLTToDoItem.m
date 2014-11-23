@@ -23,6 +23,22 @@
     return newListItem;
 }
 
+- (void) encodeWithCoder:(NSCoder *)aCoder
+{
+    [aCoder encodeObject:self.title forKey:@"title"];
+}
+
+- (instancetype) initWithCoder:(NSCoder *)aDecoder
+{
+    self = [super init];
+    if (self)
+    {
+        _title = [aDecoder decodeObjectForKey:@"title"];
+    }
+    
+    return self;
+}
+
 
 
 

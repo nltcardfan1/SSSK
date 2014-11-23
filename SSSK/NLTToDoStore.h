@@ -17,4 +17,5 @@
 + (instancetype)sharedStore;
 - (NLTToDoItem *)createItemWithTitle:(NSString*)title;
 - (void)removeItem:(NLTToDoItem *)item;
+- (BOOL)saveChanges;
 @end

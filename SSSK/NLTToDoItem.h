@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NLTToDoItem : NSObject
+@interface NLTToDoItem : NSObject <NSCoding>
 
 
 @property(nonatomic,strong) NSString *title;

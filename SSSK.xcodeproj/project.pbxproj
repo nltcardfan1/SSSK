@@ -24,7 +24,6 @@
 		2677623D19491777000830A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2677623B19491777000830A6 /* InfoPlist.strings */; };
 		2677623F19491777000830A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2677623E19491777000830A6 /* main.m */; };
 		2677624319491777000830A6 /* NLTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2677624219491777000830A6 /* NLTAppDelegate.m */; };
-		2677624619491777000830A6 /* SSSK.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2677624419491777000830A6 /* SSSK.xcdatamodeld */; };
 		2677624819491777000830A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2677624719491777000830A6 /* Images.xcassets */; };
 		2677624F19491777000830A6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2677624E19491777000830A6 /* XCTest.framework */; };
 		2677625019491777000830A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2677623019491777000830A6 /* Foundation.framework */; };
@@ -76,7 +75,6 @@
 		2677624019491777000830A6 /* SSSK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSSK-Prefix.pch"; sourceTree = "<group>"; };
 		2677624119491777000830A6 /* NLTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLTAppDelegate.h; sourceTree = "<group>"; };
 		2677624219491777000830A6 /* NLTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLTAppDelegate.m; sourceTree = "<group>"; };
-		2677624519491777000830A6 /* SSSK.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SSSK.xcdatamodel; sourceTree = "<group>"; };
 		2677624719491777000830A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2677624D19491777000830A6 /* SSSKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSSKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2677624E19491777000830A6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -198,7 +196,6 @@
 				26E33BA51975704E00F084D9 /* Converter */,
 				2659630519659B430050F5FA /* Images */,
 				2677624719491777000830A6 /* Images.xcassets */,
-				2677624419491777000830A6 /* SSSK.xcdatamodeld */,
 				2677623919491777000830A6 /* Supporting Files */,
 			);
 			path = SSSK;
@@ -358,7 +355,6 @@
 				2677624319491777000830A6 /* NLTAppDelegate.m in Sources */,
 				26E33BA31975704100F084D9 /* NLTBinHexConvViewController.m in Sources */,
 				265963131965A4B10050F5FA /* NLTToDoStore.m in Sources */,
-				2677624619491777000830A6 /* SSSK.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,19 +575,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		2677624419491777000830A6 /* SSSK.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				2677624519491777000830A6 /* SSSK.xcdatamodel */,
-			);
-			currentVersion = 2677624519491777000830A6 /* SSSK.xcdatamodel */;
-			path = SSSK.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 2677622519491777000830A6 /* Project object */;
 }
